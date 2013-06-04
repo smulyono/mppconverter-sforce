@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <enableActivities>false</enableActivities>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <fields>
+        <fullName>Alert_Delay__c</fullName>
+        <defaultValue>5</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This is the number of minutes that the system will wait before sending out alert emails when a security event occurs.</description>
+        <externalId>false</externalId>
+        <label>Alert Delay</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Alert_Email_Sender__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>This field will use the selected contact for the &apos;from&apos; field in the alert emails.</description>
+        <externalId>false</externalId>
+        <label>Alert Email Sender</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Contact For Sender Field</relationshipLabel>
+        <relationshipName>States</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Alert_Email__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This is the email address that will receive the security alert emails (not the daily reports)</description>
+        <externalId>false</externalId>
+        <label>Alert Email</label>
+        <required>false</required>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Date_Range_Days__c</fullName>
+        <defaultValue>1</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Number of days for reported data</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Last_Time_Report_Collected__c</fullName>
+        <defaultValue>NOW()</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Last time SHC ran date</description>
+        <externalId>false</externalId>
+        <label>Last Time Report Collected</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>OrgWideEmail__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The email address of the OrgWideEmail that the email should be sent as.</description>
+        <externalId>false</externalId>
+        <label>OrgWideEmail</label>
+        <required>false</required>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Run_every_days__c</fullName>
+        <defaultValue>7</defaultValue>
+        <deprecated>false</deprecated>
+        <description>How often to run SHC</description>
+        <externalId>false</externalId>
+        <label>Run every (days)</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Send_Alerts__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Send Alerts</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Send_All_Reports__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Choose to receive all previously not sent report or only the most recent one.</inlineHelpText>
+        <label>What Type of Reports To Send</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Send All Recent Reports</fullName>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Send Last Report Only</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Send Report Only If Something Changed</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Send_Reports__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Is SHC supposed to send reports</description>
+        <externalId>false</externalId>
+        <label>Send Reports</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>email__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Whom should the report be send to</label>
+        <required>false</required>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <label>State</label>
+    <nameField>
+        <label>State Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>States</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>AlertDelay_validation_rule</fullName>
+        <active>true</active>
+        <description>Alert delay cannot be negative</description>
+        <errorConditionFormula>Alert_Delay__c  &lt;=  0</errorConditionFormula>
+        <errorDisplayField>Alert_Delay__c</errorDisplayField>
+        <errorMessage>Value should be positive</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>DaysOfData_validation_rule</fullName>
+        <active>true</active>
+        <description>Value should be positive</description>
+        <errorConditionFormula>Date_Range_Days__c &lt;= 0</errorConditionFormula>
+        <errorDisplayField>Date_Range_Days__c</errorDisplayField>
+        <errorMessage>Value should be positive</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SendReport_validation_rule</fullName>
+        <active>true</active>
+        <description>Send Report days should be positive</description>
+        <errorConditionFormula>Run_every_days__c &lt;= 0</errorConditionFormula>
+        <errorDisplayField>Run_every_days__c</errorDisplayField>
+        <errorMessage>Value should be positive</errorMessage>
+    </validationRules>
+</CustomObject>

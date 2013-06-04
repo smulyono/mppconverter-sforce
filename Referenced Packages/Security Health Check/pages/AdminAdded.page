@@ -1,0 +1,128 @@
+<apex:page standardController="shc__OrgState__c" extensions="shc.CollectData">
+
+  <center>
+  <apex:outputLink style="font-size:18px" value="{!$Page.shc__AdminAddedPdf}">Render Results As PDF <apex:param name="adminRange" value="{!adminRange}"/></apex:outputLink>
+  <br/>
+  <apex:form >
+      <apex:commandbutton action="{!fullScan}" value="Run Full Scan" id="cleanupButton"/> 
+  </apex:form>
+  <br/>
+  <apex:form >
+      <apex:selectList value="{!adminRange}" id="adminRange" title="Cleanup Log">
+      <apex:selectoption itemLabel="30 Minutes" itemValue="30"></apex:selectoption>
+      <apex:selectoption itemLabel="1 Hour" itemValue="60"></apex:selectoption>
+      <apex:selectoption itemLabel="1 Day" itemValue="1440"></apex:selectoption>
+      <apex:selectoption itemLabel="1 Week" itemValue="10080"></apex:selectoption>
+      <apex:selectoption itemLabel="1 Month" itemValue="43200"></apex:selectoption>
+      </apex:selectList>
+      <apex:commandbutton action="{!RefreshPage}" value="Clean Out Entries Older Than" id="cleanupButton">
+          <apex:param name="myParam" value="my Value"/>
+      </apex:commandbutton>
+  </apex:form>
+  </center>
+  
+  <apex:pageBlock title="VAD Privilege Added" rendered="{!vadAdded.size > 0}"> 
+  <apex:pageBlockTable border="2px" value="{!vadAdded}" var="user">
+    <apex:column value="{!user.LastModifiedDate}" headerValue="Last Modified Date"/>
+    <apex:column value="{!user.shc__UserName__c}" headerValue="User Name"/>
+    <apex:column value="{!user.shc__Value__c}" headerValue="User ID"/>
+  </apex:pageBlockTable>
+  </apex:pageBlock>
+  
+  <apex:pageBlock title="VAD Privilege Revoked" rendered="{!vadRemoved.size > 0}"> 
+  <apex:pageBlockTable border="2px" value="{!vadRemoved}" var="user">
+    <apex:column value="{!user.LastModifiedDate}" headerValue="Last Modified Date"/>
+    <apex:column value="{!user.shc__UserName__c}" headerValue="User Name"/>
+    <apex:column value="{!user.shc__Value__c}" headerValue="User ID"/>
+  </apex:pageBlockTable>
+  </apex:pageBlock>
+  
+  
+  
+  
+  
+  <apex:pageBlock title="Added Admins" rendered="{!adminUsersAdded.size > 0}"> 
+  <apex:pageBlockTable border="2px" value="{!adminUsersAdded}" var="user">
+    <apex:column value="{!user.LastModifiedDate}" headerValue="Last Modified Date"/>
+    <apex:column value="{!user.shc__UserName__c}" headerValue="User Name"/>
+    <apex:column value="{!user.shc__Value__c}" headerValue="User Id"/>
+  </apex:pageBlockTable>
+  </apex:pageBlock>
+  
+  <apex:pageBlock title="Removed Admins" rendered="{!adminUsersRemoved.size > 0}"> 
+  <apex:pageBlockTable border="2px" value="{!adminUsersRemoved}" var="user">
+    <apex:column value="{!user.LastModifiedDate}" headerValue="Last Modified Date"/>
+    <apex:column value="{!user.shc__UserName__c}" headerValue="User Name"/>
+    <apex:column value="{!user.shc__Value__c}" headerValue="User Id"/>
+  </apex:pageBlockTable>
+  </apex:pageBlock>
+  
+  
+  
+
+  <apex:pageBlock title="Newly Receiving Admin Emails" rendered="{!adminEmailsAdded.size > 0}"> 
+  <apex:pageBlockTable border="2px" value="{!adminEmailsAdded}" var="user">
+    <apex:column value="{!user.LastModifiedDate}" headerValue="Last Modified Date"/>
+    <apex:column value="{!user.shc__UserName__c}" headerValue="User Name"/>
+    <apex:column value="{!user.shc__Value__c}" headerValue="User Id"/>
+  </apex:pageBlockTable>
+  </apex:pageBlock>
+  
+  <apex:pageBlock title="No Longer Receiving Admin Emails" rendered="{!adminEmailsRemoved.size > 0}"> 
+  <apex:pageBlockTable border="2px" value="{!adminEmailsRemoved}" var="user">
+    <apex:column value="{!user.LastModifiedDate}" headerValue="Last Modified Date"/>
+    <apex:column value="{!user.shc__UserName__c}" headerValue="User Name"/>
+    <apex:column value="{!user.shc__Value__c}" headerValue="User Id"/>
+  </apex:pageBlockTable>
+  </apex:pageBlock>
+    
+  <apex:pageBlock title="Newly Active Users" rendered="{!activeUsersAdded.size > 0}"> 
+  <apex:pageBlockTable border="2px" value="{!activeUsersAdded}" var="user">
+    <apex:column value="{!user.LastModifiedDate}" headerValue="Last Modified Date"/>
+    <apex:column value="{!user.shc__UserName__c}" headerValue="User Name"/>
+    <apex:column value="{!user.shc__Value__c}" headerValue="User Id"/>
+  </apex:pageBlockTable>
+  </apex:pageBlock>
+  
+  <apex:pageBlock title="Recently Inactive Users" rendered="{!activeUsersRemoved.size > 0}"> 
+  <apex:pageBlockTable border="2px" value="{!activeUsersRemoved}" var="user">
+    <apex:column value="{!user.LastModifiedDate}" headerValue="Last Modified Date"/>
+    <apex:column value="{!user.shc__UserName__c}" headerValue="User Name"/>
+    <apex:column value="{!user.shc__Value__c}" headerValue="User Id"/>
+  </apex:pageBlockTable>
+  </apex:pageBlock>
+  
+  <apex:pageBlock title="Recently Updated Emails" rendered="{!emailsUpdated.size > 0}"> 
+  <apex:pageBlockTable border="2px" value="{!emailsUpdated}" var="user">
+    <apex:column value="{!user.LastModifiedDate}" headerValue="Last Modified Date"/>
+    <apex:column value="{!user.shc__UserName__c}" headerValue="User Name"/>
+    <apex:column value="{!user.shc__Value__c}" headerValue="User Id"/>
+  </apex:pageBlockTable>
+  </apex:pageBlock>
+  
+  <apex:pageBlock title="MAD Privilege Added" rendered="{!madAdded.size > 0}"> 
+  <apex:pageBlockTable border="2px" value="{!madAdded}" var="user">
+    <apex:column value="{!user.LastModifiedDate}" headerValue="Last Modified Date"/>
+    <apex:column value="{!user.shc__UserName__c}" headerValue="User Name"/>
+    <apex:column value="{!user.shc__Value__c}" headerValue="User Id"/>
+  </apex:pageBlockTable>
+  </apex:pageBlock>
+  
+  <apex:pageBlock title="MAD Privilege Revoked" rendered="{!madRemoved.size > 0}"> 
+  <apex:pageBlockTable border="2px" value="{!madRemoved}" var="user">
+    <apex:column value="{!user.LastModifiedDate}" headerValue="Last Modified Date"/>
+    <apex:column value="{!user.shc__UserName__c}" headerValue="User Name"/>
+    <apex:column value="{!user.shc__Value__c}" headerValue="User Id"/>
+  </apex:pageBlockTable>
+  </apex:pageBlock>
+  
+  <apex:pageBlock title="Logins During Irregular Hours" rendered="{!loginTimes.size > 0}"> 
+  <apex:pageBlockTable border="2px" value="{!loginTimes}" var="user">
+    <apex:column value="{!user.LastModifiedDate}" headerValue="Last Modified Date"/>
+    <apex:column value="{!user.shc__UserName__c}" headerValue="User Name"/>
+    <apex:column value="{!user.shc__Value__c}" headerValue="User Id"/>
+    <apex:column value="{!user.shc__AccountType__c}" headerValue="Login Time"/>
+  </apex:pageBlockTable>
+  </apex:pageBlock>
+  
+</apex:page>

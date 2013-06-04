@@ -1,0 +1,38 @@
+<apex:component >
+	<!-- https://github.com/smulyono/sfdc-bootsrap -->
+   <apex:stylesheet value="{!URLFOR($Resource.sfdc_bootstrap,'bootstrap/css/bootstrap.min.css')}"></apex:stylesheet>
+   <apex:includeScript value="//cdnjs.cloudflare.com/ajax/libs/jquery/1.7.1/jquery.min.js"></apex:includeScript>
+   <apex:includeScript value="{!URLFOR($Resource.sfdc_bootstrap, 'bootstrap/js/bootstrap.min.js')}"></apex:includeScript>
+   
+   <style>
+   	#bootstrap-panel ul, #bootstrap-panel ol,
+   	.bootstrap-panel ul, .bootstrap-panel ol {
+   		margin : 1px 0px !Important;
+   	}
+   	
+   	#bootstrap-panel ul li,
+   	.bootstrap-panel ul li {
+   		margin : 0px !important;
+   	}
+    /* transparent is better */
+    #bootstrap-panel, .bootstrap-panel {
+       background-color: transparent;
+    }
+    
+    #bootstrap-panel .nopadding,
+    .bootstrap-panel .nopadding {
+      padding : 0px !important;  
+    }
+    
+    body #bootstrap-panel .btn, 
+    body .bootstrap-panel .btn {
+      background-image : none !important; /* handle IE */
+    }   		
+   </style>
+   
+   <script>
+   		var $j_bootstrap = jQuery.noConflict();
+   </script>
+   
+   
+</apex:component>

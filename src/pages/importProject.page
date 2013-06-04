@@ -1,0 +1,154 @@
+<apex:page showHeader="true" sidebar="true"
+    standardController="Project__c"
+    extensions="importProjectController"
+    recordSetVar="projects"
+    doctype="html-5.0"
+    >
+<html>
+<head>
+  <title>MPP Converter - Importer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    .jsonstyle {
+        color : #d14;
+        background-color : #EEE;
+        padding-left : 5px;
+    }
+  </style>
+</head>
+
+<body ng-app="mpp">
+<apex:outputPanel styleClass="bootstrap-panel">
+    <div class="container" data-ng-controller="mppconverterCtrl">
+        <div class="row-fluid">
+            <h2>{{ title }}</h2>
+            <hr />
+            <form id="formsubmit" class="form-inline">
+            <label for="file">Select File:</label>
+            <input type="file" name="file"/>
+            <input type="button" value="Upload" class="btn btn-primary"
+                ng-click="submitdata()" ng-hide="showJsonProcess"/>
+            <input type="button" value="Convert to SObject" class="btn btn-inverse"
+                ng-click="callremote()" ng-show="showJsonProcess" />
+            </form>
+        </div>
+        <hr />
+        <div class="row-fluid">
+            <h2>JSON Result</h2>
+            <br />
+            <div class="alert" ng-show="showprocess">
+                <strong>Please Wait.. processing</strong>
+            </div>
+            <div class="alert alert-success" ng-show="showresultid()">
+                <a href="/{{ projectrecordid}}" target="_blank"
+                    class="btn btn-success">
+                    Go To Project Record
+                </a>
+            </div>
+            <div class="jsonstyle">
+                {{ json_string_data }}
+            </div>
+        </div>
+    </div>
+</apex:outputPanel>
+
+</body>
+<apex:includeScript value="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"/>
+<apex:includeScript value="//ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js" />
+<c:BootstrapComponent />
+
+<script>
+
+// Angular Module
+var angmodule = angular.module('mpp',[]);
+// Controller
+angmodule.controller('mppconverterCtrl',
+    function($scope){
+        $scope.title = "Import From Project File (.mpp)";
+        // Heroku App URL
+        $scope.ConverterURL = 'https://glacial-bayou-4282.herokuapp.com/convertmpp';
+        // JSON String DATA
+        $scope.json_string_data = "No Data";
+
+        // Project Record ID
+        $scope.projectrecordid = "";
+
+        // several simple flags for show / hode some message / alert
+        $scope.showJsonProcess = false;
+        $scope.showprocess = false;
+
+        $scope.showresultid = function(){
+            if ($scope.projectrecordid == ""){
+                return false;
+            } else {
+                return true;
+            }
+        }
+
+
+        $scope.callremote = function(){
+            var parent = $scope;
+            $scope.showprocess = true;
+            // to show the alert
+            if (!$scope.$$phase){
+                $scope.$apply();
+            }
+            Visualforce.remoting.Manager.invokeAction(
+                '{!$RemoteAction.importProjectController.operateJSON}',
+                $scope.json_string_data,
+                function(result, event){
+                    if (event.status){
+                        parent.json_string_data ='Process Finished!' ;
+                        parent.showJsonProcess = false;
+                        parent.showprocess = false;
+                        parent.projectrecordid = result.generatedId;
+                        if (!parent.$$phase){
+                            parent.$apply();
+                        }
+                    }
+                }
+            );
+        }
+
+        $scope.submitdata = function(){
+            var parent = $scope;
+            parent.json_string_data = 'Submitting project file ...... ';
+            var obj = $("#formsubmit");
+            /* ADD FILE TO PARAM AJAX */
+            var formData = new FormData();
+            $.each($(obj).find("input[type='file']"), function(i, tag) {
+                $.each($(tag)[0].files, function(i, file) {
+                    formData.append(tag.name, file);
+                });
+            });
+            var params = $(obj).serializeArray();
+            $.each(params, function (i, val) {
+                formData.append(val.name, val.value);
+            });
+
+            $.ajax({
+                url : $scope.ConverterURL,
+                data: formData,
+                cache : false,
+                processData : false,
+                contentType : false,
+                type : 'POST',
+                success : function(data){
+                    parent.json_string_data = JSON.stringify(data);
+                    parent.showJsonProcess = true;
+                    // reset back
+                    parent.projectrecordid = "";
+                    if (!parent.$$phase){
+                        parent.$apply();
+                    }
+                }
+            });
+        };
+    }
+);
+</script>
+
+
+</html>
+
+</apex:page>

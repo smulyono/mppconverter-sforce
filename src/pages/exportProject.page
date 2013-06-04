@@ -1,0 +1,88 @@
+<apex:page showHeader="true" sidebar="true"
+    standardController="Project__c"
+    extensions="exportProjectController"
+    doctype="html-5.0"
+    >
+<html>
+<head>
+  <title>MPP Converter - Export</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    .jsonstyle {
+        color : #d14;
+        background-color : #EEE;
+        padding-left : 5px;
+    }
+  </style>
+</head>
+<body ng-app="mpp">
+<div class="bootstrap-panel">
+    <div class="container" data-ng-controller="mppconverterCtrl">
+        <h2>Export Project</h2>
+        <hr />
+        <button class="btn btn-primary" data-ng-click="createJson()">
+            Create JSON Request
+        </button>
+        <hr />
+        <div class="row">
+            <form >
+                <textarea id="json_raw" name="json_raw">{{ json_request }}</textarea>
+                <input type="submit" class="btn-primary" ng-click="submitJson()"/>
+            </form>
+        </div>
+        <hr />
+        {{ text_info }} 
+    </div>
+</div>
+
+<apex:includeScript value="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"/>
+<apex:includeScript value="//ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js" />
+<c:BootstrapComponent />
+
+<script>
+// Angular Module
+var angmodule = angular.module('mpp',[]);
+
+// Controller
+angmodule.controller('mppconverterCtrl',
+    function($scope){
+        $scope.json_request = "";
+        $scope.text_info = "";        
+        $scope.submitJson = function(){
+            var parent = $scope;
+			$.ajax({
+			    type: "post",
+			    url: "https://glacial-bayou-4282.herokuapp.com/creatempx", //your valid url
+			    contentType: "application/json", //this is required for spring 3 - ajax to work (at least for me)
+			    data: JSON.stringify($scope.json_request), //json object or array of json objects
+			    success: function(result) {
+			         parent.text_info="Generated File can be found at /tmp/result.mpx";
+                    if (!parent.$$phase){
+                        parent.$apply();
+                    }
+			    }
+			});            
+        };
+        
+        $scope.createJson = function(){
+            var parent = $scope;
+            Visualforce.remoting.Manager.invokeAction(
+                '{!$RemoteAction.exportProjectController.buildJSON}',
+                "{!Project__c.id}",
+                function(result, event){
+                    if (event.status){
+                        parent.json_request = result;
+                        if (!parent.$$phase){
+                            parent.$apply();
+                        }
+                    }
+                }
+            );
+        }
+    }
+);
+
+</script>
+</body>
+</html>
+</apex:page>

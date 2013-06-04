@@ -1,0 +1,21 @@
+<apex:component access="global" controller="shc.AlertReport">
+  <apex:dataTable styleClass="list" rowClasses="white, shade" headerclass="header" cellspacing="5px" value="{!alerts}" var="user" rendered="{!alerts.size > 0}">
+    <apex:facet name="header">Anomalous Activity</apex:facet>
+    <apex:column >
+        <apex:facet name="header">Last Modified Date</apex:facet>
+        <apex:outputField value="{!user.LastModifiedDate}" />
+    </apex:column>
+    <apex:column >
+        <apex:facet name="header">User Name</apex:facet>
+        <apex:outputField value="{!user.shc__UserName__c}" />
+    </apex:column>
+    <apex:column >
+        <apex:facet name="header">User Id</apex:facet>
+        <apex:outputField value="{!user.shc__Value__c}" />
+    </apex:column> 
+    <apex:column >
+        <apex:facet name="header">Alert Type</apex:facet>
+        <apex:outputField value="{!user.shc__AccountType__c}" />
+    </apex:column>
+  </apex:dataTable>
+</apex:component>

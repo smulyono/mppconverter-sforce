@@ -1,0 +1,6 @@
+<apex:page >
+<apex:stylesheet value="{!$Resource.shc__shc_css}" />
+    This is a sweet page
+  
+    <c:NewPDFReport />
+</apex:page>

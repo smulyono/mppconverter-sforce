@@ -1,0 +1,233 @@
+<apex:component access="global" controller="shc.CollectData">
+
+<h2>Security Alerts Report</h2> 
+ <apex:dataTable styleClass="list" rowClasses="white, shade" headerclass="header" cellspacing="5px" value="{!vadAdded}" var="user" rendered="{!vadAdded.size > 0}">
+    <apex:facet name="header">VAD Privilege Added</apex:facet>
+    <apex:column >
+        <apex:facet name="header">Last Modified Date</apex:facet>
+        <apex:outputField value="{!user.LastModifiedDate}" />
+    </apex:column>
+    <apex:column >
+        <apex:facet name="header">User Name</apex:facet>
+        <apex:outputField value="{!user.shc__UserName__c}" />
+    </apex:column>
+    <apex:column >
+        <apex:facet name="header">User Id</apex:facet>
+        <apex:outputField value="{!user.shc__Value__c}" />
+    </apex:column>
+  </apex:dataTable>
+  
+  <apex:outputPanel rendered="{!vadAdded.size > 0}"><br /></apex:outputPanel>
+  
+  
+  <apex:dataTable styleClass="list" rowClasses="white, shade" headerclass="header" cellspacing="5px" value="{!vadRemoved}" var="user" rendered="{!vadRemoved.size > 0}">
+    <apex:facet name="header">VAD Privilege Revoked</apex:facet>
+    <apex:column >
+        <apex:facet name="header">Last Modified Date</apex:facet>
+        <apex:outputField value="{!user.LastModifiedDate}" />
+    </apex:column>
+    <apex:column >
+        <apex:facet name="header">User Name</apex:facet>
+        <apex:outputField value="{!user.shc__UserName__c}" />
+    </apex:column>
+    <apex:column >
+        <apex:facet name="header">User Id</apex:facet>
+        <apex:outputField value="{!user.shc__Value__c}" />
+    </apex:column>
+  </apex:dataTable>
+  
+  <apex:outputPanel rendered="{!vadRemoved.size > 0}"><br /></apex:outputPanel>
+  
+  <apex:dataTable styleClass="list" rowClasses="white, shade" headerclass="header" cellspacing="5px" value="{!adminUsersAdded}" var="user" rendered="{!adminUsersAdded.size > 0}">
+  <br/><br/>
+    <apex:facet name="header">Admin Users Added</apex:facet>
+    <apex:column >
+        <apex:facet name="header">Last Modified Date</apex:facet>
+        <apex:outputField value="{!user.LastModifiedDate}" />
+    </apex:column>
+    <apex:column >
+        <apex:facet name="header">User Name</apex:facet>
+        <apex:outputField value="{!user.shc__UserName__c}" />
+    </apex:column>
+    <apex:column >
+        <apex:facet name="header">User Id</apex:facet>
+        <apex:outputField value="{!user.shc__Value__c}" />
+    </apex:column>
+  </apex:dataTable>
+  
+  <apex:outputPanel rendered="{!adminUsersAdded.size > 0}"><br /></apex:outputPanel>
+  
+  <apex:dataTable styleClass="list" rowClasses="white, shade" headerclass="header" cellspacing="5px" value="{!adminUsersRemoved}" var="user" rendered="{!adminUsersRemoved.size > 0}">
+  <br/><br/>
+    <apex:facet name="header">Admin Users Removed</apex:facet>
+    <apex:column >
+        <apex:facet name="header">Last Modified Date</apex:facet>
+        <apex:outputField value="{!user.LastModifiedDate}" />
+    </apex:column>
+    <apex:column >
+        <apex:facet name="header">User Name</apex:facet>
+        <apex:outputField value="{!user.shc__UserName__c}" />
+    </apex:column>
+    <apex:column >
+        <apex:facet name="header">User Id</apex:facet>
+        <apex:outputField value="{!user.shc__Value__c}" />
+    </apex:column>
+  </apex:dataTable>
+  
+  <apex:outputPanel rendered="{!adminUsersRemoved.size > 0}"><br /></apex:outputPanel>
+  
+  <apex:dataTable styleClass="list" rowClasses="white, shade" headerclass="header" cellspacing="5px" value="{!adminEmailsAdded}" var="user" rendered="{!adminEmailsAdded.size > 0}">
+  <br/><br/>
+    <apex:facet name="header">Admin Emails Added</apex:facet>
+    <apex:column >
+        <apex:facet name="header">Last Modified Date</apex:facet>
+        <apex:outputField value="{!user.LastModifiedDate}" />
+    </apex:column>
+    <apex:column >
+        <apex:facet name="header">User Name</apex:facet>
+        <apex:outputField value="{!user.shc__UserName__c}" />
+    </apex:column>
+    <apex:column >
+        <apex:facet name="header">User Id</apex:facet>
+        <apex:outputField value="{!user.shc__Value__c}" />
+    </apex:column>
+  </apex:dataTable>
+  
+  <apex:outputPanel rendered="{!adminEmailsAdded.size > 0}"><br /></apex:outputPanel>
+  
+  <apex:dataTable styleClass="list" rowClasses="white, shade" headerclass="header" cellspacing="5px" value="{!adminEmailsRemoved}" var="user" rendered="{!adminEmailsRemoved.size > 0}">
+  <br/><br/>
+    <apex:facet name="header">Admin Emails Removed</apex:facet>
+    <apex:column >
+        <apex:facet name="header">Last Modified Date</apex:facet>
+        <apex:outputField value="{!user.LastModifiedDate}" />
+    </apex:column>
+    <apex:column >
+        <apex:facet name="header">User Name</apex:facet>
+        <apex:outputField value="{!user.shc__UserName__c}" />
+    </apex:column>
+    <apex:column >
+        <apex:facet name="header">User Id</apex:facet>
+        <apex:outputField value="{!user.shc__Value__c}" />
+    </apex:column>
+  </apex:dataTable>
+  
+  <apex:outputPanel rendered="{!adminEmailsRemoved.size > 0}"><br /></apex:outputPanel>
+  
+  <apex:dataTable styleClass="list" rowClasses="white, shade" headerclass="header" cellspacing="5px" value="{!activeUsersAdded}" var="user" rendered="{!activeUsersAdded.size > 0}">
+  <br/><br/>
+    <apex:facet name="header">Active Users Added</apex:facet>
+    <apex:column >
+        <apex:facet name="header">Last Modified Date</apex:facet>
+        <apex:outputField value="{!user.LastModifiedDate}" />
+    </apex:column>
+    <apex:column >
+        <apex:facet name="header">User Name</apex:facet>
+        <apex:outputField value="{!user.shc__UserName__c}" />
+    </apex:column>
+    <apex:column >
+        <apex:facet name="header">User Id</apex:facet>
+        <apex:outputField value="{!user.shc__Value__c}" />
+    </apex:column>
+  </apex:dataTable>
+  
+  <apex:outputPanel rendered="{!activeUsersAdded.size > 0}"><br /></apex:outputPanel>
+  
+  <apex:dataTable styleClass="list" rowClasses="white, shade" headerclass="header" cellspacing="5px" value="{!activeUsersRemoved}" var="user" rendered="{!activeUsersRemoved.size > 0}">
+  <br/><br/>
+    <apex:facet name="header">Deactivated Users</apex:facet>
+    <apex:column >
+        <apex:facet name="header">Last Modified Date</apex:facet>
+        <apex:outputField value="{!user.LastModifiedDate}" />
+    </apex:column>
+    <apex:column >
+        <apex:facet name="header">User Name</apex:facet>
+        <apex:outputField value="{!user.shc__UserName__c}" />
+    </apex:column>
+    <apex:column >
+        <apex:facet name="header">User Id</apex:facet>
+        <apex:outputField value="{!user.shc__Value__c}" />
+    </apex:column>
+  </apex:dataTable>
+  
+  <apex:outputPanel rendered="{!activeUsersRemoved.size > 0}"><br /></apex:outputPanel>
+  
+  <apex:dataTable styleClass="list" rowClasses="white, shade" headerclass="header" cellspacing="5px" value="{!emailsUpdated}" var="user" rendered="{!emailsUpdated.size > 0}">
+  <br/><br/>
+    <apex:facet name="header">User Emails Updated</apex:facet>
+    <apex:column >
+        <apex:facet name="header">Last Modified Date</apex:facet>
+        <apex:outputField value="{!user.LastModifiedDate}" />
+    </apex:column>
+    <apex:column >
+        <apex:facet name="header">User Name</apex:facet>
+        <apex:outputField value="{!user.shc__UserName__c}" />
+    </apex:column>
+    <apex:column >
+        <apex:facet name="header">User Id</apex:facet>
+        <apex:outputField value="{!user.shc__Value__c}" />
+    </apex:column>
+  </apex:dataTable>
+  
+  <apex:outputPanel rendered="{!emailsUpdated.size > 0}"><br /></apex:outputPanel>  
+  
+  <apex:dataTable styleClass="list" rowClasses="white, shade" headerclass="header" cellspacing="5px" value="{!madAdded}" var="user" rendered="{!madAdded.size > 0}">
+  <br/><br/>
+    <apex:facet name="header">MAD Privilege Added</apex:facet>
+    <apex:column >
+        <apex:facet name="header">Last Modified Date</apex:facet>
+        <apex:outputField value="{!user.LastModifiedDate}" />
+    </apex:column>
+    <apex:column >
+        <apex:facet name="header">User Name</apex:facet>
+        <apex:outputField value="{!user.shc__UserName__c}" />
+    </apex:column>
+    <apex:column >
+        <apex:facet name="header">User Id</apex:facet>
+        <apex:outputField value="{!user.shc__Value__c}" />
+    </apex:column>
+  </apex:dataTable>
+  
+  <apex:outputPanel rendered="{!madAdded.size > 0}"><br /></apex:outputPanel>  
+  
+  <apex:dataTable styleClass="list" rowClasses="white, shade" headerclass="header" cellspacing="5px" value="{!madRemoved}" var="user" rendered="{!madRemoved.size > 0}">
+  <br/><br/>
+    <apex:facet name="header">MAD Privilege Revoked</apex:facet>
+    <apex:column >
+        <apex:facet name="header">Last Modified Date</apex:facet>
+        <apex:outputField value="{!user.LastModifiedDate}" />
+    </apex:column>
+    <apex:column >
+        <apex:facet name="header">User Name</apex:facet>
+        <apex:outputField value="{!user.shc__UserName__c}" />
+    </apex:column>
+    <apex:column >
+        <apex:facet name="header">User Id</apex:facet>
+        <apex:outputField value="{!user.shc__Value__c}" />
+    </apex:column>
+  </apex:dataTable>
+  
+  <apex:outputPanel rendered="{!madRemoved.size > 0}"><br /></apex:outputPanel>
+  
+  <apex:dataTable styleClass="list" rowClasses="white, shade" headerclass="header" cellspacing="5px" value="{!loginTimes}" var="user" rendered="{!loginTimes.size > 0}">
+  <br/><br/>
+    <apex:facet name="header">MAD Privilege Revoked</apex:facet>
+    <apex:column >
+        <apex:facet name="header">Last Modified Date</apex:facet>
+        <apex:outputField value="{!user.LastModifiedDate}" />
+    </apex:column>
+    <apex:column >
+        <apex:facet name="header">User Name</apex:facet>
+        <apex:outputField value="{!user.shc__UserName__c}" />
+    </apex:column>
+    <apex:column >
+        <apex:facet name="header">User Id</apex:facet>
+        <apex:outputField value="{!user.shc__Value__c}" />
+    </apex:column>
+    <apex:column >
+        <apex:facet name="header">LoginTime</apex:facet>
+        <apex:outputField value="{!user.shc__AccountType__c}" />
+    </apex:column>
+  </apex:dataTable>
+  
+</apex:component>

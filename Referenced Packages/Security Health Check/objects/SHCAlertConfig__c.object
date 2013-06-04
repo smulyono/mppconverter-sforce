@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <customSettingsVisibility>Public</customSettingsVisibility>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>ActiveChangeAlert__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Alerts will be sent when users&apos; active status changes.</description>
+        <externalId>false</externalId>
+        <label>ActiveChangeAlert</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ActiveUserChangeAlertDelay__c</fullName>
+        <defaultValue>1</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Delay before alerts are sent</description>
+        <externalId>false</externalId>
+        <label>ActiveUserChangeAlertDelay</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AdminChangeAlertDelay__c</fullName>
+        <defaultValue>1</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Delay before sending alert</description>
+        <externalId>false</externalId>
+        <label>AdminChangeAlertDelay</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AdminChangeAlert__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Send alerts when users are made into administrators</description>
+        <externalId>false</externalId>
+        <label>AdminChangeAlert</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>AdminEmailsAlertDelay__c</fullName>
+        <defaultValue>1</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Delay before emails get sent.</description>
+        <externalId>false</externalId>
+        <label>AdminEmailsAlertDelay</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AdminEmailsAlert__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Send alerts when users are added to the list of users to receive administrator newsletter emails.</description>
+        <externalId>false</externalId>
+        <label>AdminEmailsAlert</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>EmailChangeAlertDelay__c</fullName>
+        <defaultValue>1</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Delay before alerts get sent.</description>
+        <externalId>false</externalId>
+        <label>EmailChangeAlertDelay</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>EmailChangeAlert__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Send alerts if a user tries to change their email.</description>
+        <externalId>false</externalId>
+        <label>EmailChangeAlert</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>MADAlertDelay__c</fullName>
+        <defaultValue>1</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Delay before alerts get sent.</description>
+        <externalId>false</externalId>
+        <label>MADAlertDelay</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MADAlert__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Send alerts when MAD status changes.</description>
+        <externalId>false</externalId>
+        <label>MADAlert</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SendAlerts__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Whether or not to send alert emails.</description>
+        <externalId>false</externalId>
+        <label>SendAlerts</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>VADAlertDelay__c</fullName>
+        <defaultValue>1</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Delay before sending alert emails.</description>
+        <externalId>false</externalId>
+        <label>VADAlertDelay</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>VADAlert__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Send alerts if a user&apos;s VAD status changes.</description>
+        <externalId>false</externalId>
+        <label>VADAlert</label>
+        <type>Checkbox</type>
+    </fields>
+    <label>SHCAlertConfig</label>
+</CustomObject>
