@@ -1,0 +1,1330 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"populateMore",
+				"populateMoreProcess"
+			],
+			[
+				"searchAp",
+				"searchAppWindow"
+			],
+			[
+				"view",
+				"viewApplicationURL"
+			],
+			[
+				"applaus",
+				"applauseService"
+			],
+			[
+				"appla",
+				"applauseService"
+			],
+			[
+				"orer",
+				"orderDescending"
+			],
+			[
+				"order",
+				"orderField"
+			],
+			[
+				"searchS",
+				"searchStop"
+			],
+			[
+				"searchst",
+				"searchStart"
+			],
+			[
+				"rowdata",
+				"rowdata_dirty"
+			],
+			[
+				"appl",
+				"applauseService"
+			],
+			[
+				"rowda",
+				"rowdata_dirty"
+			],
+			[
+				"__pop",
+				"__populateDataAttributes"
+			],
+			[
+				"attribute",
+				"attributesloading"
+			],
+			[
+				"mils",
+				"milestone_exists"
+			],
+			[
+				"Milesto",
+				"Milestone__c"
+			],
+			[
+				"miles",
+				"milestone__c"
+			],
+			[
+				"Tas",
+				"Task__c"
+			],
+			[
+				"phase",
+				"phasetypeahed"
+			],
+			[
+				"timel",
+				"timeline_typeahead"
+			],
+			[
+				"rate",
+				"ratecard_index"
+			],
+			[
+				"reso",
+				"resolveRateCard"
+			],
+			[
+				"index",
+				"index-1"
+			],
+			[
+				"ng-bind-",
+				"ng-bind-html-unsafe	angular bind-html-unsafe"
+			],
+			[
+				"pro",
+				"progressload"
+			],
+			[
+				"isload",
+				"isloadingprs"
+			],
+			[
+				"studentrec",
+				"studentreccount"
+			],
+			[
+				"Course_Regisration",
+				"Course_Registration_Line_Item__c"
+			],
+			[
+				"Course_Registr",
+				"Course_Registration_Line_Item__c"
+			],
+			[
+				"Course_Reg",
+				"Course_Registration_Line_Item__c"
+			],
+			[
+				"Enrolled",
+				"Enrolled_Program__c"
+			],
+			[
+				"class_sch",
+				"class_schedule__r"
+			],
+			[
+				"exist",
+				"existingids"
+			],
+			[
+				"sanity",
+				"sanityitems"
+			],
+			[
+				"registration_stat",
+				"registration_status__c"
+			],
+			[
+				"schedule",
+				"scheduletoadd"
+			],
+			[
+				"regist",
+				"registration_status__c"
+			],
+			[
+				"vali",
+				"valid_registration_Status"
+			],
+			[
+				"registration",
+				"registration_date__c"
+			],
+			[
+				"map_stu",
+				"map_student_avoided_course"
+			],
+			[
+				"work",
+				"workflow_scope__c"
+			],
+			[
+				"avail",
+				"avail_details"
+			],
+			[
+				"existin",
+				"existingCourses"
+			],
+			[
+				"regista",
+				"Registration_Status__c"
+			],
+			[
+				"Course_registrat",
+				"Course_Registration_Line_Item__c"
+			],
+			[
+				"coursesec",
+				"coursesection1"
+			],
+			[
+				"Course_Registration_",
+				"Course_Registration_Line_Item__c"
+			],
+			[
+				"Cours",
+				"Course_Registration_Line_Item__c"
+			],
+			[
+				"get",
+				"getFieldPath"
+			],
+			[
+				"schoolter",
+				"schoolterm_to_fetch"
+			],
+			[
+				"empt",
+				"emptyregfeerec"
+			],
+			[
+				"school_ter",
+				"School_Term_Fee_Period__c"
+			],
+			[
+				"Course_regi",
+				"Course_Registration_Line_Item__c"
+			],
+			[
+				"map",
+				"map_emptyregfee"
+			],
+			[
+				"end_date",
+				"end_date_forfee"
+			],
+			[
+				"end",
+				"end_date_forfee"
+			],
+			[
+				"registra",
+				"registration_date__c"
+			],
+			[
+				"schoo",
+				"schoolterm_to_fetch"
+			],
+			[
+				"Schoo",
+				"school_term_fee_period__c"
+			],
+			[
+				"scho",
+				"school_term__r"
+			],
+			[
+				"refre",
+				"refreshPage"
+			],
+			[
+				"coursereg",
+				"courseregistrationId"
+			],
+			[
+				"course",
+				"courseregistrationId"
+			],
+			[
+				"student",
+				"Student_Contact__c"
+			],
+			[
+				"Course_reg",
+				"Course_Registration_Line_Item__c"
+			],
+			[
+				"dir",
+				"dirty_master_record"
+			],
+			[
+				"COurse",
+				"Course_Registration_Line_Item__c"
+			],
+			[
+				"confi",
+				"confirm_master"
+			],
+			[
+				"School_Term",
+				"School_Term__c"
+			],
+			[
+				"comm",
+				"commitErrors"
+			],
+			[
+				"gotopage",
+				"goToPageSelectCourses"
+			],
+			[
+				"Course",
+				"CourseRegistrationDAO"
+			],
+			[
+				"coursesection",
+				"coursesection2"
+			],
+			[
+				"prepareRegistr",
+				"prepareRegistrationData"
+			],
+			[
+				"Enroll",
+				"Enrolled_Program__c"
+			],
+			[
+				"Course_Registration",
+				"Course_Registration_Line_Item__c"
+			],
+			[
+				"Course_Regis",
+				"Course_Registration_Line_Item__c"
+			],
+			[
+				"PASSing",
+				"PASSING_STATUS_TEXT"
+			],
+			[
+				"prepareDAO",
+				"prepareDAOcheckResult"
+			],
+			[
+				"map_cours",
+				"map_coursesection_course"
+			],
+			[
+				"enrolled_",
+				"Enrolled_Program__r"
+			],
+			[
+				"defer",
+				"defer_check_error_encountered"
+			],
+			[
+				"courses",
+				"coursesectionids"
+			],
+			[
+				"courseprere",
+				"courseprerequisitesId"
+			],
+			[
+				"Mockup",
+				"MockupUtility"
+			],
+			[
+				"prepare",
+				"prepareDegree"
+			],
+			[
+				"SE",
+				"SEQUENTIAL_TEXT"
+			],
+			[
+				"complete",
+				"completed_course_map"
+			],
+			[
+				"Degree",
+				"DegreePathCheckModel"
+			],
+			[
+				"Degre",
+				"DegreePathCheckModel"
+			],
+			[
+				"degree",
+				"DegreePathCheckModel"
+			],
+			[
+				"map_stude",
+				"map_student_course_check"
+			],
+			[
+				"map_student_ourse",
+				"map_student_course_apply_status"
+			],
+			[
+				"map_stud",
+				"map_student_completed_course"
+			],
+			[
+				"Course_Registrat",
+				"course_registration_line_item__c"
+			],
+			[
+				"map_student",
+				"map_student_course_to_apply"
+			],
+			[
+				"map_st",
+				"map_student_course_to_apply"
+			],
+			[
+				"mul",
+				"multiple_master_records"
+			],
+			[
+				"selected",
+				"selectedrectype"
+			],
+			[
+				"Sc",
+				"scheduleModel"
+			],
+			[
+				"ILMS_SIS__schoo",
+				"ILMS_SIS__school_term_course_line_item__c"
+			],
+			[
+				"ILMS_SIS_scho",
+				"ILMS_SIS__school_term_course_line_item__c"
+			],
+			[
+				"ILMS_SIS_SchoolT",
+				"ILMS_SIS__school_term_course_line_item__c"
+			],
+			[
+				"newat",
+				"newattendancerecord"
+			],
+			[
+				"newattenda",
+				"newattendance"
+			],
+			[
+				"ACMeeting",
+				"ACMeeting_Principal"
+			],
+			[
+				"AC_Create",
+				"AC_CreateMeetingController"
+			],
+			[
+				"AC_Cre",
+				"AC_CreateMeetingController"
+			],
+			[
+				"ac_S",
+				"AC_SetupController"
+			],
+			[
+				"getBo",
+				"getBodyDocument()"
+			],
+			[
+				"prin",
+				"principal_id"
+			],
+			[
+				"permis",
+				"permission-id"
+			],
+			[
+				"sco_id",
+				"SCO_ID__c"
+			],
+			[
+				"di",
+				"display-uid"
+			],
+			[
+				"AC_P",
+				"AC_Principal_User"
+			],
+			[
+				"getAttrib",
+				"getAttributeKeyAt"
+			],
+			[
+				"AC_Princi",
+				"AC_Principal_User"
+			],
+			[
+				"session",
+				"sessioncode"
+			],
+			[
+				"bodyco",
+				"bodycoderaw"
+			],
+			[
+				"toolbar",
+				"toolbarDefault"
+			],
+			[
+				"addsc",
+				"addschoollogo"
+			],
+			[
+				"include",
+				"includecoursecatalog"
+			],
+			[
+				"addscho",
+				"addschoolinfo"
+			],
+			[
+				"selectedProgr",
+				"selectedProgramName"
+			],
+			[
+				"selectedDeg",
+				"selectedDegreeObject"
+			],
+			[
+				"selectedProgra",
+				"selectedProgramObject"
+			],
+			[
+				"catalog",
+				"catalogrecords"
+			],
+			[
+				"School_Term_Course",
+				"school_term_course_line_item__c"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 1040,
+				"line_ending": "Unix",
+				"name": "# MPP Converter (Salesforce Application)"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"install pac",
+				"Package Control: Install Package"
+			],
+			[
+				"cs-cop",
+				"Snippet: CS-Copyright"
+			],
+			[
+				"standard",
+				"Snippet: Apex Class - StandardController"
+			],
+			[
+				"apex-cop",
+				"Snippet: Apex-Copyright"
+			],
+			[
+				"standardset",
+				"Snippet: Apex Class - Standard Set Controller"
+			],
+			[
+				"apex",
+				"Snippet: Apex Class - Standard Set Controller"
+			],
+			[
+				"cs-c",
+				"Snippet: CS-Copyright"
+			],
+			[
+				"cs-",
+				"Snippet: CS-Copyright"
+			],
+			[
+				"copy",
+				"Snippet: Apex-Copyright"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"fieldset",
+				"Snippet: Show fieldset in Visualforce page"
+			],
+			[
+				"apex-",
+				"Snippet: Apex Class - StandardController"
+			],
+			[
+				"apex-e",
+				"Snippet: Apex Class - StandardController"
+			],
+			[
+				"deploy",
+				"MavensMate: Deploy Resource Bundle"
+			],
+			[
+				"depl",
+				"MavensMate: Deploy Resource Bundle"
+			],
+			[
+				"resource",
+				"MavensMate: Create Resource Bundle"
+			],
+			[
+				"apex-cop	",
+				"Snippet: Apex-Copyright"
+			],
+			[
+				"apex-stnda",
+				"Snippet: Apex Class - StandardController"
+			],
+			[
+				"apex-sta",
+				"Snippet: Apex Class - StandardController"
+			],
+			[
+				"apex-c",
+				"Snippet: Apex-Copyright"
+			],
+			[
+				"snippet apex cop",
+				"Snippet: Apex-Copyright"
+			],
+			[
+				"snippet apex-cop",
+				"Snippet: Apex-Copyright"
+			],
+			[
+				"apex ",
+				"Snippet: Apex Class - StandardController"
+			],
+			[
+				"snippet apex ",
+				"Snippet: Apex Class - StandardController"
+			],
+			[
+				"snippet APEX",
+				"Snippet: Apex Class - StandardController"
+			],
+			[
+				"bootstrap",
+				"Snippet: Bootstrap-navigationbar"
+			],
+			[
+				"snippet nav",
+				"Snippet: <nav>"
+			],
+			[
+				"Snippet: standard",
+				"Snippet: Apex-standardsetController"
+			],
+			[
+				"show fieldset",
+				"Snippet: Show fieldset in Visualforce page"
+			],
+			[
+				"showfieldset",
+				"Snippet: Show fieldset in Visualforce page"
+			],
+			[
+				"standard con",
+				"Snippet: Apex-standardController"
+			],
+			[
+				"standardcont",
+				"Snippet: Apex-standardController"
+			],
+			[
+				"snippeta",
+				"Snippet: Apex-standardsetController"
+			],
+			[
+				"snippet",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"markdo",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"markd",
+				"Markdown Preview: open Markdown Cheat sheet"
+			],
+			[
+				"mark",
+				"Markdown Preview: preview in Sublime Text"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"cop",
+				"Auto Copyright: Insert Copyright"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"fetch",
+				"Fetch: Manage"
+			],
+			[
+				"gith",
+				"Github: Open File"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 174.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/opt/sfdc-ilms-workspace/Mpp Converter/src/pages/exportProject.page",
+		"/opt/sfdc-ilms-workspace/Mpp Converter/src/classes/exportProjectController.cls",
+		"/opt/sfdc-ilms-workspace/Mpp Converter/src/classes/exportProjectWS.cls",
+		"/opt/sfdc-ilms-workspace/Mpp Converter/src/classes/Test_Project.cls",
+		"/opt/sfdc-ilms-workspace/Mpp Converter/src/classes/projectModel.cls",
+		"/opt/sfdc-ilms-workspace/Mpp Converter/.project",
+		"/opt/sfdc-ilms-workspace/Mpp Converter/Mpp Converter.sublime-project",
+		"/opt/eclipse-workspace/dashboard/diff.txt",
+		"/opt/eclipse-workspace/dashboard/src/dash/ui/templates/ui/junosops.html",
+		"/opt/eclipse-workspace/dashboard/src/dash/ui/templates/ui/base.html",
+		"/opt/eclipse-workspace/dashboard/src/dash/ui/inc/jquery/tableauUtil.js",
+		"/opt/eclipse-workspace/dashboard/src/dash/ui/inc/styles/qir.css",
+		"/opt/eclipse-workspace/dashboard/src/dash/ui/inc/styles/component.css",
+		"/opt/eclipse-workspace/dashboard/src/dash/ui/templates/ui/component_report.html",
+		"/opt/eclipse-workspace/dashboard/src/dash/ui/ajax.py",
+		"/opt/eclipse-workspace/dashboard/src/dash/ui/templates/ui/crs.html",
+		"/opt/eclipse-workspace/dashboard/src/dash/ui/templates/ui/qir_report.html",
+		"/opt/eclipse-workspace/dashboard/src/dash/settings.py",
+		"/opt/eclipse-workspace/dashboard/src/dash/urls.py",
+		"/opt/eclipse-workspace/dashboard/src/dash/ui/inc/styles/dash.css",
+		"/opt/eclipse-workspace/dashboard/src/dash/ui/inc/dash.js",
+		"/opt/eclipse-workspace/dashboard/src/dash/ui/templates/parts/scores-box.html",
+		"/opt/eclipse-workspace/dashboard/src/dash/ui/templates/parts/broken-rule.html",
+		"/opt/eclipse-workspace/dashboard/src/dash/ui/templates/ui/scores.html",
+		"/opt/eclipse-workspace/dashboard/src/dash/ui/templates/ui/agenda.html",
+		"/opt/eclipse-workspace/dashboard/src/dash/__init__.py",
+		"/opt/eclipse-workspace/dashboard/src/dash/ui/inc/jquery/ui.js",
+		"/opt/eclipse-workspace/dashboard/src/dash/ui/__init__.py",
+		"/opt/eclipse-workspace/dashboard/src/dash/ui/urls.py",
+		"/opt/eclipse-workspace/dashboard/src/dash/ui/inc/styles/ui.theme.css",
+		"/opt/eclipse-workspace/dashboard/src/dash/ui/inc/styles/ui.base.css",
+		"/opt/eclipse-workspace/dashboard/src/dash/ui/inc/styles/ie.css",
+		"/opt/eclipse-workspace/dashboard/src/dash/ui/inc/jquery/jquery.bgiframe.js",
+		"/opt/eclipse-workspace/dashboard/src/dash/ui/inc/jquery/qir.js",
+		"/opt/eclipse-workspace/dashboard/src/dash/ui/management/commands/runserver.py",
+		"/opt/eclipse-workspace/dashboard/src/dash/db.py",
+		"/opt/eclipse-workspace/dashboard/src/dash/ui/management/__init__.py",
+		"/opt/eclipse-workspace/dashboard/src/dash/proxy.wsgi",
+		"/opt/eclipse-workspace/dashboard/src/dash/manage.py",
+		"/opt/eclipse-workspace/dashboard/src/dash/tests.py",
+		"/opt/sfdc-ilms-workspace/sis20dev-wip/src/classes/ClassScheduleOrganizerTriggerUtil.cls",
+		"/opt/sfdc-ilms-workspace/sis20dev-wip/src/classes/Test_ClassScheduleOrganizerTriggerUtil.cls",
+		"/opt/sfdc-ilms-workspace/sis20dev-wip/src/triggers/T_ClassScheduleOrganizer.trigger",
+		"/opt/sfdc-ilms-workspace/sis20dev-wip/src/classes/ClassScheduleTriggerUtil.cls",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/challenge-2287/source-ref/sf_add_attachment.snippet",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/challenge-2302/java/cs2302applause/src/main/webapp/WEB-INF/views/index.jsp",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/challenge-2302/java/cs2302applause/src/main/webapp/WEB-INF/static/js/services/searchModelService.js",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/challenge-2302/java/cs2302applause/src/main/webapp/WEB-INF/static/js/services/viewModelService.js",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/challenge-2302/java/cs2302applause/src/main/webapp/WEB-INF/static/js/services/applauseService.js",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/challenge-2302/java/cs2302applause/src/main/webapp/WEB-INF/static/html/navigationBar.html",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/challenge-2302/java/cs2302applause/src/main/webapp/WEB-INF/static/js/app.js",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/challenge-2302/java/cs2302applause/src/main/webapp/WEB-INF/static/html/searchApps.html",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/challenge-2302/java/cs2302applause/src/main/webapp/WEB-INF/static/js/controller/ui1Ctrl.js",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/challenge-2302/java/cs2302applause/src/main/webapp/WEB-INF/static/js/services.js",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/challenge-2302/java/cs2302applause/src/main/webapp/WEB-INF/static/js/controller/ui2Ctrl.js",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/challenge-2302/java/cs2302applause/src/main/webapp/WEB-INF/static/js/services/utilService.js",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/challenge-2302/java/cs2302applause/src/main/webapp/WEB-INF/static/js/controller.js",
+		"/Users/sannymulyono/Library/Application Support/Sublime Text 2/Packages/AngularJS Attributes Completion/AngularJS Attributes Completion.sublime-settings",
+		"/opt/sfdc-ilms-workspace/mppconverter/src/pages/importProject.page",
+		"/opt/sfdc-ilms-workspace/mppconverter/src/classes/projectModel.cls",
+		"/opt/sfdc-ilms-workspace/mppconverter/src/pages/exportProject.page",
+		"/opt/sfdc-ilms-workspace/mppconverter/src/classes/exportProjectController.cls",
+		"/opt/sfdc-ilms-workspace/mppconverter/src/classes/importProjectController.cls",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/challenge-2287/README",
+		"/opt/sfdc-ilms-workspace/mppconverter/src/classes/Test_Project.cls",
+		"/opt/sfdc-ilms-workspace/mppconverter/src/pages/projectList.page",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/challenge-2277/src/pages/projectList.page",
+		"/opt/sfdc-ilms-workspace/mppconverter/src/pages/projectList.page-meta.xml",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/challenge-2277/app/index.html",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/challenge-2277/app/partials/header.html",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/challenge-2277/app/css/app.css",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/heroku/heroku-mvc/src/main/resources/applicationContext.xml",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/challenge-2277/app/ratecard.json",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/challenge-2227/README.md",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/challenge-2227/app/index.html",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/challenge-2227/app/js/service/utilService.js",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/challenge-2227/app/js/service/ratecardService.js",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/challenge-2227/app/js/service/timelineService.js",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/challenge-2227/app/js/controller/timelineCtrl.js",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/challenge-2227/app/partials/header.html",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/challenge-2227/app/lib/angular/angular.js",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/challenge-2227/app/css/app.css",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/challenge-2227/app/js/service/projectService.js",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/challenge-2227/app/js/services.js",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/challenge-2227/app/js/app.js",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/challenge-2227/app/js/controllers.js",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/challenge-2227/app/js/service/resourceService.js",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/challenge-2227/app/js/controller/resourceCtrl.js",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/challenge-2227/app/js/controller/ratecardCtrl.js",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/challenge-2227/app/js/controller/projectViewCtrl.js",
+		"/Users/sannymulyono/Documents/sannyDrop/Dropbox/Packages/User/CS-Copyright.sublime-snippet",
+		"/Users/sannymulyono/Documents/sannyDrop/Dropbox/Packages/User/CS-Copyright",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/challenge-2227/app/partials/projectview.html",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/challenge-2227/app/partials/footer.html",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/challenge-2227/app/partials/resource.html",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/challenge-2227/app/partials/timeline.html",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/challenge-2227/app/partials/ratecard.html",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/challenge-2227/app/ratecard.json",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/teradash-lite/README.md",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/teradash-lite/app/css/app.css",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/teradash-lite/app/index.html",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/teradash-lite/app/lib/angular/angular.js",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/teradash-lite/test/unit/controllersSpec.js",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/teradash-light/app/partials/main.html",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/teradash-light/app/partials/partial1.html",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/teradash-light/app/partials/header.html",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/teradash-light/app/lib/angular/angular-resource.js",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/teradash-light/app/index.html",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/angular-seed/app/partials/partial1.html",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/angular-seed/app/partials/partial2.html",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/angular-seed/app/js/directives.js",
+		"/Users/sannymulyono/Documents/sannyDrop/Dropbox/Packages/AngularJS/README.md",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/angular-seed/app/js/app.js",
+		"/Users/sannymulyono/IDriveSync/sts-3.1-workspace/angular-seed/app/js/controllers.js",
+		"/opt/sfdc-ilms-workspace/sis20dev-wip/src/classes/SISUtility.cls",
+		"/opt/sfdc-ilms-workspace/sis20dev-wip/src/triggers/T_class_schedule.trigger",
+		"/opt/sfdc-ilms-workspace/sis20dev-wip/src/classes/Test_CourseRegistrationDAO.cls",
+		"/opt/sfdc-ilms-workspace/sis20dev-wip/src/classes/DegreePathService.cls",
+		"/opt/sfdc-ilms-workspace/sis20dev-wip/src/classes/Test_DegreePathService.cls",
+		"/opt/sfdc-ilms-workspace/sis20dev-wip/src/classes/Test_ClassEnrollmentTriggerUtil.cls",
+		"/opt/sfdc-ilms-workspace/sis20dev-wip/src/classes/MockupUtility.cls",
+		"/opt/sfdc-ilms-workspace/sis20dev-wip/src/classes/Test_RegistrationNewController.cls",
+		"/opt/sfdc-ilms-workspace/sis20dev-wip/src/classes/Test_RegistrationAddCourseController.cls",
+		"/opt/sfdc-ilms-workspace/sis20dev-wip/src/classes/CourseRegistrationDAO.cls",
+		"/opt/sfdc-ilms-workspace/sis20dev-wip/src/classes/ClassEnrollmentTriggerUtil.cls",
+		"/opt/sfdc-ilms-workspace/sis20dev-wip/src/classes/RegistrationAddCourseController.cls",
+		"/opt/sfdc-ilms-workspace/sis20dev-wip/src/pages/RegistrationAddCourse.page",
+		"/opt/sfdc-ilms-workspace/sis20dev-wip/src/pages/RegistrationAddConfirmation.page"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"result",
+			"$scope",
+			"&:toolbar=no",
+			"h4",
+			"500px",
+			"tableau",
+			"user_data",
+			"a ",
+			"tabs_panel",
+			"h3",
+			"section-name",
+			"h3",
+			"box",
+			"index",
+			"treeview",
+			"top_reports",
+			"800px",
+			"userdata",
+			"mgr_temp_",
+			"data_id",
+			"endblock",
+			"url",
+			"help",
+			"childScope",
+			"serviceScope",
+			"rowdata_dirty",
+			"childScope",
+			"serviceScope",
+			"addingAppId",
+			"loading_appIds",
+			"removeRowData",
+			"appIdsToFind",
+			"searchCount",
+			"lowLimit",
+			"highLimit",
+			"EXCLUDE_CATEGORY",
+			"key",
+			"applauseService",
+			"div",
+			"loading_appIds",
+			"appid",
+			"appId",
+			"searchStart",
+			"currentpage",
+			"SearchCount",
+			"__populateDataAttributesSuccessResponse",
+			"__populateDataDetailsSuccessResponse",
+			"modelService",
+			"    function($scope, $q, applauseService, modelService){\n",
+			"rowdata",
+			"$scope",
+			"_populateDataSuccessResponse",
+			"this",
+			"rowdata",
+			"$scope",
+			"categories",
+			"$scope.initialAppId",
+			"sourceobject",
+			"category",
+			"'s",
+			"uniqueId",
+			"Integer",
+			"Id",
+			"mapresource_extid_id",
+			"map_taskuniqueid_resourceid",
+			"Integer",
+			"Decimal",
+			"mapresource_id_extid",
+			"Integer",
+			"Number",
+			"jsondata",
+			"**",
+			"th",
+			"mini",
+			"timelines[i]",
+			"maintimelines",
+			"this",
+			"selectedresource",
+			"timeline",
+			"Timeline",
+			"timeline",
+			"timelineService",
+			"this",
+			"slice",
+			"splice",
+			"defer",
+			"parentobj",
+			"this.ratecard",
+			"dbservice",
+			"timeline",
+			"timecard",
+			"small",
+			"hostname",
+			"span",
+			"medium",
+			"large",
+			"span",
+			"badge",
+			"metricsdata",
+			"button",
+			"metricsid",
+			"ruleFactory",
+			"newCustomer",
+			"query",
+			"scope",
+			"BeforeInsert",
+			"LIMIT",
+			"rectypefaculty",
+			"rectypestudent",
+			"creg1",
+			"Enrolled_Program__c",
+			"map_studentclass",
+			"IN Here",
+			"IN HERE",
+			">>>",
+			"AfterUpdate",
+			"update",
+			">>>",
+			">>",
+			"oldmap",
+			"maprecs",
+			"newrecs",
+			"Valid_Regisration_Status",
+			"COMING",
+			">>>",
+			">>>>",
+			">>>",
+			">>>>"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "README.md",
+					"settings":
+					{
+						"buffer_size": 1040,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								322,
+								322
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"auto_name": "# MPP Converter (Salesforce Application)",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 66.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.MavensMate-OutputPanel":
+	{
+		"height": 154.0
+	},
+	"output.exec":
+	{
+		"height": 154.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"mock",
+				"src/classes/MockupUtility.cls"
+			],
+			[
+				"mockup",
+				"src/classes/MockupUtility.cls"
+			],
+			[
+				"test_registration",
+				"src/classes/Test_RegistrationNewController.cls"
+			],
+			[
+				"test_course",
+				"src/classes/Test_CourseRegistrationDAO.cls"
+			],
+			[
+				"test_cou",
+				"src/classes/Test_CourseRegistrationDAO.cls"
+			],
+			[
+				"registrationview",
+				"src/pages/RegistrationView.page"
+			],
+			[
+				"test_coursereg",
+				"src/classes/Test_CourseRegistrationDAO.cls"
+			],
+			[
+				"t_",
+				"src/classes/T_TermManagementViewController.cls"
+			],
+			[
+				"t_mainvi",
+				"src/classes/T_MainViewController.cls"
+			],
+			[
+				"applicationmanage",
+				"src/pages/ApplicationManagement.page"
+			],
+			[
+				"programv",
+				"src/pages/program_view.page"
+			],
+			[
+				"programvi",
+				"src/classes/programViewController.cls"
+			],
+			[
+				"programs",
+				"src/classes/programsController.cls"
+			],
+			[
+				"webtemplp",
+				"src/pages/webtemplate.page"
+			],
+			[
+				"isis_gradesconsolebycourse",
+				"src/pages/isis_gradesConsoleByCourse.page"
+			],
+			[
+				"sample",
+				"src/classes/SampleData.cls"
+			],
+			[
+				"initial",
+				"src/classes/InitialSetupScript.cls"
+			],
+			[
+				"sissche",
+				"deploycode/crm_sis_code/classes/SISscheduler.cls"
+			],
+			[
+				"novailmslib",
+				"moodle-core/enrol/novailms/lib.php"
+			],
+			[
+				"main_template",
+				"application/views/templates/main_template.php"
+			],
+			[
+				"base",
+				"application/controllers/basic_request.php"
+			],
+			[
+				"home.",
+				"application/views/home.php"
+			],
+			[
+				"bigimage",
+				"application/views/layout/bigImageSpotlight.php"
+			],
+			[
+				"home",
+				"application/views/home.php"
+			],
+			[
+				"product_go",
+				"application/views/products_gold.php"
+			],
+			[
+				"basicrequest",
+				"application/controllers/basic_request.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 230.0,
+	"status_bar_visible": true
+}

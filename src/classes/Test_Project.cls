@@ -40,8 +40,24 @@ private class Test_Project {
         newprojects.add(newproject);
         insert (newprojects);
 
+        Task__c newtask = new Task__c(name='newtask', project__c = newproject.id);
+        insert(newtask);
+
         Apexpages.standardSetController asst = new Apexpages.standardSetController(newprojects);
         importProjectController ipc = new importProjectController(asst);
+
+        // Test Apex Webservice Class
+        RestRequest req = new RestRequest();
+        req.addParameter('projectid', newproject.id);
+
+        RestContext.request = req;
+        RestContext.response = new RestResponse();
+        projectModel.project wsresult = exportProjectWS.convertProjectToJSON();
+        system.assert(wsresult.projectTitle == newproject.name);
+
+        // Test export project controller
+        Apexpages.standardController ast = new Apexpages.standardController(newproject);
+        exportProjectController epc = new exportProjectController(ast);
 
         Test.stopTest();
 	}
