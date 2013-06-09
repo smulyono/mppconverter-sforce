@@ -16,6 +16,12 @@ application will only act as the front-end from Salesforce Side
 
 ## Installation
 
+Using Ant Build Script (assumed that ant-salesforce.jar installed in your machine, otherwise see [here](http://www.salesforce.com/us/developer/docs/apexcode/Content/apex_deploying_ant.htm))
+
+    __change the sf.username and sf.password for deployed org__
+
+    $ ant deploy
+
 Using unmanaged package [here](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tE0000000UskR)
 
 ## Configuration / Setup
